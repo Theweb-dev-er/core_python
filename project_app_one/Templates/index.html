@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Core Python </h1>
+        </div>
+        &nbsp;
+        <div class="container">
+            <h5>Control Flow Tool</h5>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="{% url 'core.if_else' %}"> If-else</a></li>
+                <li class="list-group-item"><a href="{% url 'core.for_loop' %}">For</a></li>
+                <li class="list-group-item"><a href="{% url 'py.break_continue' %}">break and continue</a></li>
+                <li class="list-group-item"><a href="{% url 'py.match' %}">match</a></li>
+            </ul>
+        </div>
+
+        &nbsp;
+        <div class="container">
+            <h5>Function</h5>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="{% url 'py.lambda_with_filter_map_reduce' %}"> lambda with filter</a></li>
+            </ul>
+        </div>
+
+        &nbsp;
+        <div class="container">
+            <h5>Data Structures</h5>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="{% url 'py.list' %}"> List</a></li>
+                <li class="list-group-item"><a href="{% url 'py.list_comprehensions' %}"> list Comprehensions</a></li>
+                <li class="list-group-item"><a href="{% url 'py.nested_list_comprehensions' %}"> Nested list Comprehensions</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
